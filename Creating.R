@@ -40,6 +40,10 @@ df5
 
 #save this data for export
 write.csv(data,'./data/studenrs3.csv')
+write.csv(df2,'./data/IITG1.csv')
+write.csv(df3,'./data/IITG2.csv')
+write.csv(df4,'./data/IITG3.csv')
 install.packages('xlsx')   #needs to be installed
 install.packages('rJava')  #needs to be installed
 library(xlsx)
+
