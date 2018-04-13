@@ -156,3 +156,4 @@ identify(rep(1, length(residuals(fit1))), residuals(fit1), labels = seq_along(re
 car::outlierTest(fit1)
 
 car::outlierTest(lm(Y ~ X, data=df[-c(14,12),]))
+

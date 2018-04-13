@@ -93,3 +93,4 @@ x1==x2
 sgrades= sample(grades,20, replace = T, prob = c(0.4,0.2,0.2,0.1,0.1))
 sgrades
 table(sgrades)
+?table

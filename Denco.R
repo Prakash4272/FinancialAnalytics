@@ -2,7 +2,7 @@
 
 sales1= read.csv("./data/denco.csv")                  #importing a data
 str(sales1)
-
+table(sales1)
 sales2= read.csv(file.choose())                       #when file location is not known
 
 #https://docs.google.com/spreadsheets/d/1h7HU0X_Q4T5h5D1Q36qoK40Tplz94x_HZYHOJJC_edU/edit#gid=216113907

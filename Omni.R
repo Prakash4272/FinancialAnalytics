@@ -30,6 +30,7 @@ omni = omni1
 
 ?lm  #see help of LM
 #Simple Linear Model would look like this
+
 slr1 = lm(formula = sales ~ price, data=omni) # sales depend on price of item
 slr2 = lm(formula = sales ~ promotion, data=omni) # sales depend on promotion exp
 summary(slr1)
